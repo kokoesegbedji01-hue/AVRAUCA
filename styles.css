@@ -567,3 +567,103 @@ footer p {
     height: 300px;
   }
 }
+/* THEME TOGGLE BUTTON */
+.theme-toggle {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #c99a56;
+  background: transparent;
+  color: #f2cf93;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: rgba(201, 154, 86, 0.15);
+  transform: scale(1.05);
+}
+
+/* LIGHT MODE */
+body.light-mode {
+  background: #f7f1e6;
+  color: #102418;
+}
+
+body.light-mode .nav {
+  background: rgba(247, 241, 230, 0.96);
+  border-bottom: 1px solid rgba(107, 84, 39, 0.25);
+}
+
+body.light-mode nav a {
+  color: #102418;
+}
+
+body.light-mode nav a.active,
+body.light-mode nav a:hover {
+  color: #8a642b;
+  border-bottom: 1px solid #8a642b;
+}
+
+body.light-mode .nav-btn,
+body.light-mode .theme-toggle {
+  color: #8a642b;
+  border-color: #8a642b;
+}
+
+body.light-mode .hero {
+  background:
+    linear-gradient(90deg, rgba(247, 241, 230, 0.96) 0%, rgba(247, 241, 230, 0.76) 48%, rgba(247, 241, 230, 0.32) 100%),
+    url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode .card h3,
+body.light-mode .model-grid h3 {
+  color: #17281d;
+}
+
+body.light-mode .hero p,
+body.light-mode .section-left p,
+body.light-mode .solution-text,
+body.light-mode .model-grid p,
+body.light-mode .impact p,
+body.light-mode .contact p,
+body.light-mode .card p {
+  color: #26372c;
+}
+
+body.light-mode .stats,
+body.light-mode .solution,
+body.light-mode .model,
+body.light-mode .problem,
+body.light-mode .contact {
+  background: #f7f1e6;
+}
+
+body.light-mode .card,
+body.light-mode .model-grid div,
+body.light-mode .flow div {
+  background: rgba(255, 255, 255, 0.65);
+  border-color: rgba(138, 100, 43, 0.22);
+}
+
+body.light-mode .stats {
+  border-top: 1px solid rgba(138, 100, 43, 0.25);
+  border-bottom: 1px solid rgba(138, 100, 43, 0.25);
+}
+
+body.light-mode .stats div {
+  border-right: 1px solid rgba(138, 100, 43, 0.18);
+}
+
+body.light-mode footer {
+  background: #eee3d0;
+}
+
+body.light-mode footer p {
+  color: #4a3f30;
+}
