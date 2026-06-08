@@ -667,3 +667,8 @@ body.light-mode footer {
 body.light-mode footer p {
   color: #4a3f30;
 }
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
