@@ -1,6 +1,6 @@
-AVRAURA Processor Infrastructure Website
+AVRAUCA Processor Infrastructure Website
 
-This updated mockup positions AVRAURA around the strongest opportunity:
+This updated mockup positions AVRAUCA around the strongest opportunity:
 - processor financing
 - processor intelligence
 - demand-backed supply coordination
